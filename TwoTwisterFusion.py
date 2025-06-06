@@ -236,27 +236,32 @@ def update_minimap():
     mini_arrows.clear()
     dpx = 0.254
     dpy = 0.225
-    # Flèches de vent
     for gx in mini_grid_x:
         for gz in mini_grid_z:
             wind = compute_wind_at_point(Vec3(gx,0,gz), tornadoes)
             norm = wind.length()
             if norm < 1e-3:
-                wind = Vec3(0,0,1)
+                wind_dir = Vec3(0,0,1)
             else:
-                wind = wind.normalized()
+                wind_dir = wind.normalized()
+            # Définir la couleur selon l'intensité du vent
+            if norm < 10.0:
+                arrow_color = color.green
+            elif norm < 25.0:
+                arrow_color = color.yellow
+            else:
+                arrow_color = color.red
             px = (gx/(size*scale)) * 0.28 + dpx
             pz = (gz/(size*scale)) * 0.28 + dpy
-            arrow = Entity(parent=mini_map_parent, model='quad', scale=(0.003,0.009), position=(px,pz,-0.01), color=color.yellow)
-            angle = np.degrees(np.arctan2(wind.x, wind.z))
+            arrow = Entity(parent=mini_map_parent, model='quad', scale=(0.003,0.009), position=(px,pz,-0.01), color=arrow_color)
+            angle = np.degrees(np.arctan2(wind_dir.x, wind_dir.z))
             arrow.rotation_z = -angle
             mini_arrows.append(arrow)
             dot = Entity(parent=mini_map_parent, model='circle', scale=0.002, position=(px,pz,-0.01), color=color.green)
             mini_arrows.append(dot)
-    # Points rouges pour les tornades
     for t in tornadoes:
-        px = (t.x/(size*scale)) * 0.28 + dpx
-        pz = (t.z/(size*scale)) * 0.28 + dpy
+        px = (t.position.x/(size*scale)) * 0.28 + dpx
+        pz = (t.position.z/(size*scale)) * 0.28 + dpy
         dot = Entity(parent=mini_map_parent, model='circle', scale=0.018, position=(px,pz,-0.01), color=color.red)
         mini_arrows.append(dot)
 
