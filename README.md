@@ -107,12 +107,12 @@ $$
 
 #### Momentum Conservation (Navier-Stokes Equation)
 
-- v⃗ : velocity vector
+- v : velocity vector
 - p : pressure
 - ρ : density (function of composition and temperature)
-- g⃗ : gravity
+- g : gravity
 - μ : dynamic viscosity
-- F⃗_autres : additional forces (e.g., Coriolis forces, electromagnetic forces negligible here)
+- F : additional forces (e.g., Coriolis forces, electromagnetic forces negligible here)
 
 $$
 \rho \left( \frac{\partial \vec{v}}{\partial t} + (\vec{v} \cdot \nabla) \vec{v} \right) = - \nabla p + \mu \nabla^2 \vec{v} + \rho \vec{g} + \vec{F}_{\mathrm{autres}}
