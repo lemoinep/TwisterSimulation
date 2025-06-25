@@ -1,16 +1,7 @@
-# Goal
+# Tornado Simulation : Objective
 
 My objective is to explore various concepts in physics by formulating problems mathematically and conducting simulations. 
-This approach will yield many interesting and valuable insights.
-
-It is still under construction. Other elements will be integrated soon.
-
-Tornado Simulation 
-
-This project is an interactive 3D Tornado Simulation Built with Python and the Ursina Engine.
-It visualizes the physical structure and dynamics of a tornado using a party system and a procedurally generated terrain. 
-The Simulation is based on Physical Vortex Models (Rankine Vortex) and include Realistic Features Such as Airflow, Debris, 
-and Tornado Movement over a Customizable Landscape.
+This approach will yield many interesting and valuable insights. It is still under construction. Other elements will be integrated soon.
 
 Detailed Python Program Descriptions
 
@@ -21,8 +12,6 @@ Detailed Python Program Descriptions
 - TwoTwisterFusion.py: Focuses on the fusion process of two twisted structures, simulating how their lattices merge and relax over time. The program models atomic rearrangements, defect formation, and energy landscape evolution during fusion, using iterative numerical solvers to capture complex structural transitions.
 
 - TwoTwisterFusionAI.py: Integrates machine learning algorithms to enhance the simulation of twisted structure fusion. This script uses AI-driven optimization techniques to predict stable configurations, accelerate convergence of numerical solvers, and identify critical parameters influencing fusion outcomes. It combines physics-based modeling with data-driven approaches for improved accuracy and computational efficiency.
-
-
 
 
 # Tornado Modeling Using Fluid Mechanics and Air Composition
