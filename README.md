@@ -18,6 +18,8 @@ Detailed Python Program Descriptions
 
 # Tornado Modeling Using Fluid Mechanics and Air Composition
 
+<img src="Images/P0003.jpg" width="100%" />
+
 ## Introduction
 
 A tornado is a highly concentrated, intense vortex of rotating air, typically manifesting as a vertically oriented column or funnel that extends from the base of a convective cloud—most commonly a cumulonimbus—to the Earth's surface. This atmospheric phenomenon is characterized by strong cyclonic rotation around a vertical axis, with wind speeds that can exceed 400 km/h. Upon ground contact, the tornado entrains particulate matter such as dust, debris, and moisture, creating a visible condensation funnel and causing significant mechanical damage.
