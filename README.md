@@ -222,4 +222,18 @@ with v² = v_r² + v_θ² + v_z².
 - [8] [Dynamics and Thermodynamics of a Tornado: Rotation Effects](https://www.sciencedirect.com/science/article/abs/pii/S0169809516300886)
 
 
+## For more information
 
+<img src="Images/Z20260109_000001.jpg" width="100%" />
+<img src="Images/Z20260109_000002.jpg" width="100%" />
+<img src="Images/Z20260109_000003.jpg" width="100%" />
+<img src="Images/Z20260109_000004.jpg" width="100%" />
+<img src="Images/Z20260109_000005.jpg" width="100%" />
+<img src="Images/Z20260109_000006.jpg" width="100%" />
+<img src="Images/Z20260109_000007.jpg" width="100%" />
+<img src="Images/Z20260109_000008.jpg" width="100%" />
+<img src="Images/Z20260109_000009.jpg" width="100%" />
+<img src="Images/Z20260109_000010.jpg" width="100%" />
+<img src="Images/Z20260109_000011.jpg" width="100%" />
+<img src="Images/Z20260109_000012.jpg" width="100%" />
+<img src="Images/Z20260109_000013.jpg" width="100%" />
