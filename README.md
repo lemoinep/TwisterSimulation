@@ -1,5 +1,11 @@
 # Tornado Simulation : Objective
 
+[![Version](https://img.shields.io/badge/version-1.5-green.svg)](https://github.com/lemoinep/TwisterSimulation)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![Python](https://img.shields.io/badge/python-3.12%2B-blue.svg)](https://www.python.org/)
+
+---
+
 <img src="Images/P0001.jpg" width="75%" />
 
 My objective is to explore various concepts in physics by formulating problems mathematically and conducting simulations. 
@@ -237,3 +243,13 @@ with v² = v_r² + v_θ² + v_z².
 <img src="Images/Z20260109_000011.jpg" width="100%" />
 <img src="Images/Z20260109_000012.jpg" width="100%" />
 <img src="Images/Z20260109_000013.jpg" width="100%" />
+
+---
+
+## 📝 **Author**
+
+**Dr. Patrick Lemoine**  
+*Engineer Expert in Scientific Computing*  
+[LinkedIn](https://www.linkedin.com/in/patrick-lemoine-7ba11b72/)
+
+---
