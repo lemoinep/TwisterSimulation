@@ -6,7 +6,9 @@
 
 ---
 
+<p align="center">
 <img src="Images/P0001.jpg" width="75%" />
+</p>
 
 My objective is to explore various concepts in physics by formulating problems mathematically and conducting simulations. 
 This approach will yield many interesting and valuable insights. It is still under construction. Other elements will be integrated soon.
